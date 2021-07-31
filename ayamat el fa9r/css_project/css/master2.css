@@ -1,0 +1,107 @@
+body{
+    background-image: url(https://www.desktopbackground.org/download/o/2011/04/25/193584_3d-hd-wallpapers-1080p_1920x1080_h.jpg);
+    background-size: cover;  
+}
+.hallo{
+    width: 1300px;
+    background-color: darkslateblue;
+    padding:5px;
+    margin: 0px  auto;
+    overflow: hidden;
+  }
+  .pepe{
+   text-align: center;
+   font-size: 20px;
+    background-color:rgb(106, 223, 112);
+    color:rgb(23, 120, 185);
+    width:calc(1300px/5);
+    border: 2px solid rgb(6, 53, 53);
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+  
+    }
+  .pepe:hover{
+    background-color:rgb(23, 120, 185);
+    color:rgb(106, 223, 112);    
+    position:relative;;
+    top:5px;  
+    left:2.5px;    
+  }
+ /* a{  
+    border: 3px solid red;
+    font-size: 70px;
+    background-color: green;
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}*/
+/*
+.numbers div{
+    text-align: center;
+    width:19%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+.pre{
+    background-color: blue;
+}
+.duo{
+    background-color: red;
+}
+.tre{
+    background-color:yellow;
+}
+.green{
+        background-color: green;
+}
+.greenyellow{
+        background-color:greenyellow;
+}
+aside{
+    visibility: hidden;
+}
+*/
+table {   
+    position: absolute;
+    background: darkgreen;
+    width:70%;
+    border: 3px solid royalblue;
+    border-spacing:5px;
+    bottom: 90px;
+    right: 0px
+}
+table td{
+    padding: 10px 0px;
+    background: silver;
+    border: 3px solid royalblue;
+
+}
+table thead td {
+background-color: red;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  border-color: red
+}
+nav{
+    height: 60px;
+background-color:rgb(20, 30, 39);
+padding-right: 20px;
+}
+input[type=text] {
+    background-color:rgb(255, 255, 255);
+    padding:18px;
+    border:2px solid black;
+    font-size: 17px;
+    width:33%;
+    margin-left:33%;
+    margin-right:33%;
+    color:green
+  }
+  input:focus{
+      background-color:darkslategray;
+      outline: none;
+  }

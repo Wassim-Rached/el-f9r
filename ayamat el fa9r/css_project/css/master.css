@@ -1,0 +1,174 @@
+header:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+body{
+    background-image: url(../../tesawer/hacker.jpg.png);
+    background-size: auto;
+    height: 3000px;
+    }
+header{ 
+    color: rgb(0, 0, 0);
+    background-color:rgb(91, 63, 190);
+    padding: 0px 0px;
+    width:33%;
+    margin-left: auto;
+    margin-right: auto;
+    border:  10px double rgb(66, 7, 94);
+    border-radius: 0px;
+    text-shadow: 6px 6px 10px rgb(0, 255, 255);
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 15px;
+    }
+    label{
+        color: rgb(0, 0, 0);
+    }
+    #email{
+    background-color: cyan;
+    color: black
+    }
+    #pass{
+    background-color:  cyan;
+    color: black
+    }
+    .sum{
+        border: 2px solid red;
+        border-radius: 20px;
+        background-color: green;
+    }
+    #hak{
+    border:10px solid  rgb(8, 8, 8);
+    background-color: rgb(204, 128, 128);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    direction: rtl;
+    line-height:200%;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    opacity: 0.8;
+    }
+    form{
+ text-align: center;
+ padding: 10px;
+    }
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six,
+    .seven,
+    .eight,
+    .nine {
+        border-left: 5px solid rgb(0, 0, 0);
+        border-bottom: 5px solid rgb(0, 0, 0);
+        color: gold;
+        height: 30px;
+        padding: 10px;
+        margin: 20px 0px;
+        background-color: rgb(6, 51, 53);
+        max-width:280px;
+        text-transform: capitalize;
+        font-style: italic;
+        cursor: pointer;
+        transition: width3s;
+    }
+    .one:hover{
+        width: 100px;
+    }
+    .two:hover{
+        width: 100px;
+    }
+    .three:hover{
+        width: 100px;
+    }
+    .four:hover{
+        width: 100px;
+    }
+    .five:hover{
+        width: 100px;
+    }
+    .six:hover{
+        width: 100px;
+    }
+    .seven:hover{
+        width:100px;
+    }
+    .eight:hover{
+        width: 100px;
+    }
+    .nine:hover{
+        width: 100px;
+    }
+    hr {
+        width: 80%;
+    }
+    aside{
+        overflow: auto;
+        height: 300px;
+        width: 330px;
+        margin: 10px 0px;
+        border:10px solid black;
+        background-color: rgb(139, 50, 50);
+        padding: 10px 10px;
+    }
+    .backward{
+        background-color:rgb(36, 18, 150);
+        width:100%;
+        height: 100%;
+    }
+    .parent div {
+        border:4px solid black;
+        padding:10px 0;
+        text-shadow: 6px 6px 10px rgb(0, 255, 255);
+        text-align: center;
+        letter-spacing: 15px;
+        width: 23.75%;
+        float: left;
+        margin-left: 0%;
+        margin-top: 10px;
+        background-color: rgb(87, 86, 99);
+    }
+    .clear {
+        clear: both;
+    }
+    
+    #fog{
+        background-color: seagreen;
+        font-size: 30px;
+        text-align: center;
+        border: 3px solid black;
+        position: sticky;
+        top: 0;
+    }
+    a{
+        color:blue;
+        text-decoration: none;
+    }
+    .yeli{
+        color:black;
+        text-decoration: none;
+    }
+    .yeli:hover{
+        color :red;
+        background-color:rgb(174, 206, 127);
+        position: relative;
+        top:  10px;
+        }
+    a:hover{
+        color :red;
+        background-color:rgb(174, 206, 127);
+    }
+    .search{
+        text-align: center;
+        padding: 30px;
+    }
+    .bth{
+        width: 100%;
+    }
+    ::selection{
+        background-color: yellow;
+        color: black;
+    }

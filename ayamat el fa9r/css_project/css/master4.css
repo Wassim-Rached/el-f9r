@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color:rgb(255, 255, 255);
+}
+.parent{
+
+}
+.parent div{
+background-color:rgb(110, 26, 131);
+font-size: 30px;
+margin-bottom: 5px;
+text-align: center;
+}
+/* @media (min-width: 768px) and (max-width:991px){
+  .parent div{
+    width:calc(50% - 15px);
+  }
+}
+@media (min-width: 992px){
+  .parent div{
+    width:calc(25% - 30px);
+  }
+} */
